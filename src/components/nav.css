@@ -1,0 +1,36 @@
+
+.nav {
+  background-color: #0d001396;
+  background-attachment: fixed;
+  animation: transitionIn 0.2s;
+  z-index: 5000;
+  font-family: Geologica,sans-serif;
+  overflow: hidden;
+}  
+
+.nav-links li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(251, 0, 255);
+    transform: scaleX(0); 
+    transform-origin: right; 
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-links li:hover::before {
+    transform: scaleX(1); 
+    transform-origin: left; 
+  }
+
+li {
+    transition: 0.2s ease-in-out;
+    
+  }
+  
+  li:hover {
+    transform: scale(1.1);
+    color: rgb(250, 0, 242);
+  }

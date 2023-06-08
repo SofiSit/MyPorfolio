@@ -1,0 +1,19 @@
+.container-work{
+    animation:  glow 2s ease-in-out infinite;
+ }
+ 
+     @keyframes glow{
+       0%, 100%{
+           color: hsl(311, 100%, 50%);
+           text-shadow: 0 0 12px rgb(179, 0, 255), 0 0 50px rgb(179, 0, 255), 0 0 100px rgb(179, 0, 255);
+       }
+       10%, 90%{
+           color: #ff05ff44;
+           text-shadow: none;
+       }
+   }
+   @keyframes back{
+    100%{
+        background-position: 8000px 0;
+    }
+ }
