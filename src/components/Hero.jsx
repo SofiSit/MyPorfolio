@@ -5,7 +5,8 @@ import { ComputersCanvas } from './canvas'
 import './hero.css'
 
 const Hero = () => {
- 
+
+
 
   return (
     <>
@@ -19,7 +20,7 @@ const Hero = () => {
         <div>
           <h1 className={`h1-intro `}>Hi, I'm  <span className='h1-intro '> Sofía</span></h1>
           
-          <p className={`${styles.heroSubText} p-front text-fuchsia-600`}> And I'm  <br  className='sm:block hidden mt-3'/>Full Stack Developer<br  className='sm:block hidden'/> </p>
+          <p className={`${styles.heroSubText} text-fuchsia-600`}> And I'm  <br  className='sm:block font-mano hidden p-front'/>Front End Developer<br  className='sm:block hidden'/> </p>
         </div>
       </div>
         <ComputersCanvas />

@@ -10,8 +10,8 @@ const App = () => {
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
       <Navbar />
       <Hero />
-      <StarsCanvas />
       </div>
+      <StarsCanvas />
     
       <About/>
       <Experience/>
@@ -19,7 +19,7 @@ const App = () => {
       <Works/>
       <div className="relative z-0">
         <Contact/>
-        <StarsCanvas />
+      <StarsCanvas />
        
       </div>
       
