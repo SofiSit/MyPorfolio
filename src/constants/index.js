@@ -45,7 +45,7 @@ import {
   const services = [
     
     {
-      title: "I'm Sofi! Full-Stack developer who enjoys providing solutions using HTML, CSS, JavaScript, Node.js, Express, React,MongoDB and SQL. I am focused on being a valued member of the team, delivering thoughtful solutions and continually improving my skills.",
+      title: "I'm Sofi! Front End / Full-Stack developer who enjoys providing solutions using HTML, CSS, JavaScript, Node.js, Express, React,MongoDB and SQL. I am focused on being a valued member of the team, delivering thoughtful solutions and continually improving my skills.",
       icon: mobile,
     },
     {
@@ -113,7 +113,7 @@ import {
   
   const experiences = [
     {
-      title: "Master en Software development",
+      title: "Master in Software development",
       company_name: "Assembler Institute of Technology",
       icon: assem,
       iconBg: "#383E56",
