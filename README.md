@@ -4,6 +4,6 @@
 ![Education](./src/assets/readmepic/pic3.png)
 ![Projects](./src/assets/readmepic/pic4.png)
 ![skills](./src/assets/readmepic/pic5.png)
-![Contact](./src/assets/readmepic/pic5.png)
+![Contact](./src/assets/readmepic/pic6.png)
 
 
